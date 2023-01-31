@@ -1,0 +1,9 @@
+#include "TextDraw.h"
+
+void main()
+{
+    //TextDraw T(10, 15, true);
+    TextDraw T(15, 15, true);
+    T.DisplayInterface();   
+    T.StartDrawing();
+}
